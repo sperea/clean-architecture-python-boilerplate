@@ -7,3 +7,7 @@ flake8
 Sphinx
 cryptography
 PyYAML
+psycopg2-binary
+psycopg2
+sqlalchemy
+sqlalchemy_utils
