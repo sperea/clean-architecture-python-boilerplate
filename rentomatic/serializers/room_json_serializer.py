@@ -1,6 +1,5 @@
 import json
 
-
 class RoomJsonEncoder(json.JSONEncoder):
 
     def default(self, o):
