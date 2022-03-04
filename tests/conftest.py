@@ -3,6 +3,14 @@ import os
 import tempfile
 import yaml
 
+from rentomatic.app import create_app
+from rentomatic.flask_settings import TestConfig
+
+
+@pytest.yield_fixture(scope='function')
+def app():
+    return create_app(TestConfig)
+
 
 @pytest.fixture(scope='session')
 def docker_setup(docker_ip):

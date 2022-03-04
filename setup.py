@@ -27,20 +27,15 @@ setup(
     author_email='sperea@gmail.com',
     url='https://github.com/sperea/clean_architecture_boilerplate',
     packages=[
-        'clean_architecture_boilerplate',
+        'rentomatic',
     ],
-    package_dir={'clean_architecture_boilerplate':
-                 'clean_architecture_boilerplate'},
-    entry_points={
-        'console_scripts': [
-            'clean_architecture_boilerplate=clean_architecture_boilerplate.cli:main'
-        ]
-    },
+    package_dir={'rentomatic':
+                     'rentomatic'},
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='clean_architecture_boilerplate',
+    keywords='rentomatic',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
